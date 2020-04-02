@@ -22,8 +22,8 @@ module.exports = {
     },
     head: [["link", {rel: "icon", href: `/favicon.ico`}]],
     themeConfig: {
-        repo: "github.com/liiishenggg/newBook",
-        docsRepo: "github.com/liiishenggg/newBook",
+        repo: "github.com/TopUnicorn2020/sites",
+        docsRepo: "github.com/TopUnicorn2020/sites",
         editLinks: true,
         locales: {
             "/": {
@@ -124,7 +124,7 @@ module.exports = {
                     {
                         text: "Changelog",
                         link:
-                            "https://github.com/iiishenggg/newBook.github.io/blob/3.0/CHANGELOG.md"
+                            "https://github.com/TopUnicorn2020/sites/blob/3.0/CHANGELOG.md"
                     }
 
                 ],
