@@ -11,8 +11,8 @@ module.exports = {
     locales: {
         "/": {
             lang: "zh-CN",
-            title: "MyBatis-Plus",
-            description: "为简化开发而生"
+            title: "TopUnicorn",
+            description: "为企业中台而生"
         },
         "/en/": {
             lang: "en-US",
