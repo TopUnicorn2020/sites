@@ -17,5 +17,5 @@
 
 ## 整体架构
 
-![framework](/img/unicorn-framework.png)
+![framework](/sites/img/unicorn-framework.png)
 
