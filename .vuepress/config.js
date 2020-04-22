@@ -66,10 +66,57 @@ module.exports = {
                                 text: "监控中心",
                                 link: ""                           		
                             }
-                        ]
+                        ],
+				                sidebar: {
+				                    "/guide/": genGuideSidebar(true)
+				                }
                     }
                 ]
             }
         }
     }
 };
+
+function genGuideSidebar(isZh) {
+    return [
+        {
+            title: isZh ? "平台概述" : "Getting Start",
+            collapsable: false,
+            children: ["", "apollo", "quick-start", "install", "config", "annotation"]
+        },
+        {
+            title: isZh ? "核心功能" : "Core",
+            collapsable: false,
+            children: ["generator", "crud-interface", "wrapper", "page", "sequence", "id-generator"]
+        },
+        {
+            title: isZh ? "插件扩展" : "Plugin",
+            collapsable: false,
+            children: [
+                "hot-loading",
+                "logic-delete",
+                "enum",
+                "typehandler",
+                "auto-fill-metainfo",
+                "sql-injector",
+                "block-attack-sql-parser",
+                "performance-analysis-plugin",
+                "p6spy",
+                "optimistic-locker-plugin",
+                "dynamic-datasource",
+                "dts",
+                "tenant",
+                "dynamic-table-name-parser",
+                "mybatisx-idea-plugin"
+            ]
+        },
+        {
+            title: "FAQ",
+            collapsable: false,
+            children: [
+                "faq",
+                "donate"
+            ]
+        }
+    ]
+}
