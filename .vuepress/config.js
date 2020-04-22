@@ -72,7 +72,8 @@ module.exports = {
                             }
                         ],
 				                sidebar: {
-				                    "/guide/": genGuideSidebar(true)
+				                    "/guide/": genGuideSidebar(true),
+				                    "/config/": genConfigSidebar(true)
 				                }
                     }
                 ]
@@ -95,6 +96,16 @@ function genGuideSidebar(isZh) {
                 "faq",
                 "donate"
             ]
+        }
+    ]
+}
+
+function genConfigSidebar(isZh) {
+    return [
+        {
+            title: isZh ? "配置" : "Config",
+            collapsable: false,
+            children: ["", "generator-config"]
         }
     ]
 }
