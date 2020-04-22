@@ -21,3 +21,17 @@
 
 ![framework](/sites/img/unicorn-framework.png)
 
+## Topevery-framework与TopUnicorn对应关系
+
+原微服务基础框架从2.1.0开始接入TopUnicorn平台，在后续的升级迭代中，TopUnicorn平台会逐步整合基础技术功能与业务功能，从而实现一个平台支撑所有产品与项目的目的。
+
+|  Topevery-framework版本  | 描述                                                         | TopUnicorn版本   | 描述                                                         |
+| :----------------------: | ------------------------------------------------------------ | ---------------- | :----------------------------------------------------------- |
+| Topevery-framework-1.0.0 | 基于spring cloud微服务开发的基础版本                         | /                | /                                                            |
+| Topevery-framework-1.1.1 | 增加基于Oauth2.0标准的鉴权                                   | /                | /                                                            |
+| Topevery-framework-2.0.0 | 原配置中心由spring cloud config替换为Apollo，增加Topevery-job调度中心 | /                | /                                                            |
+| Topevery-framework-2.0.1 | 增加多数据源分库分表支持                                     | /                | /                                                            |
+| Topevery-framework-2.1.0 | 接入TopUnicorn的基础版本，剥离原有注册中心Eureka，使用TopUnicorn提供的统一注册中心Nacos | TopUnicorn-1.0.0 | 基于spring cloud Alibaba微服务开发的基础版本，包括统一平台、统一用户中心统一注册中心 |
+| Topevery-framework-2.1.1 | 剥离原有Oauth鉴权工程，使用TopUnicorn提供的统一鉴权中心      | TopUnicorn-1.0.1 | 增加统一鉴权中心                                             |
+|           ....           | 后续迭代...                                                  | ....             | 后续迭代...                                                  |
+
