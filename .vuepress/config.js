@@ -19,7 +19,7 @@ module.exports = {
     themeConfig: {
         repo: "github.com/TopUnicorn2020/sites",
         docsRepo: "github.com/TopUnicorn2020/sites",
-        editLinks: true,
+        editLinks: false,
         locales: {
             "/": {
                 label: "简体中文",
@@ -74,8 +74,7 @@ module.exports = {
                     }
                 ],
                 sidebar: {
-                    "/guide/": genGuideSidebar(true),
-                    "/config/": genConfigSidebar(true)
+                    "/guide/": genGuideSidebar(true)
                 }
             }
         }
@@ -85,27 +84,9 @@ module.exports = {
 function genGuideSidebar(isZh) {
     return [
         {
-            title: isZh ? "快速入门" : "Getting Start",
+            title: isZh ? "平台介绍" : "Getting Start",
             collapsable: false,
-            children: ["", "apollo", "quick-start", "install", "config", "annotation"]
-        },
-        {
-            title: "FAQ",
-            collapsable: false,
-            children: [
-                "faq",
-                "donate"
-            ]
-        }
-    ]
-}
-
-function genConfigSidebar(isZh) {
-    return [
-        {
-            title: isZh ? "配置" : "Config",
-            collapsable: false,
-            children: ["", "generator-config"]
+            children: [""]
         }
     ]
 }
