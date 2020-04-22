@@ -9,7 +9,7 @@ features:
   - title: 基础支撑
     details: 只需依赖TopUnicorn平台封装的boot starter包，即可快速接入TopUnicorn。
   - title: 强大赋能
-    details: 基础微服务架构赋能，注册中心、鉴权中心、数据存储中心、分布式计算中心、分布式调度中心、监控中心。
+    details: 基础微服务架构赋能，注册中心、鉴权中心、数据存储中心、分布式计算中心、分布式消息队列中心、分布式调度中心、监控中心。
 footer: © 2020 topevery
 ---
 
