@@ -1,16 +1,18 @@
 # 简介
 
-**TopUnicorn（基础平台）**是一个，为企业云而生。
+**TopUnicorn（基础平台）**是基于微服务架构技术体系设计，致力于为企业产品线提供基础架构技术支撑；为企业产品线提供业务服务支撑；为企业中台而生。
 
 
 
 ::: tip 愿景
 
+在TopUnicorn平台的支撑下，企业产品能摆脱复杂的技术架构、复杂的业务设计流程。企业产品能更加专注于实现产品本身的核心理念，提高产品竞争力与产品用户的满意度。
+
 :::
 
 ## 特性
 
-- **TopUnicorn**：TopUnicornTopUnicornTopUnicornTopUnicornTopUnicornTopUnicorn
+- **微服务体系架构**：基于spring cloud Alibaba微服务体系结构设计
 
   
 
