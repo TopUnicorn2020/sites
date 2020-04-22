@@ -70,13 +70,13 @@ module.exports = {
                                 text: "监控中心",
                                 link: ""                           		
                             }
-                        ],
-				                sidebar: {
-				                    "/guide/": genGuideSidebar(true),
-				                    "/config/": genConfigSidebar(true)
-				                }
+                        ]
                     }
-                ]
+                ],
+                sidebar: {
+                    "/guide/": genGuideSidebar(true),
+                    "/config/": genConfigSidebar(true)
+                }
             }
         }
     }
