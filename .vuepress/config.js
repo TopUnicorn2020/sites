@@ -17,7 +17,6 @@ module.exports = {
     },
     head: [["link", {rel: "icon", href: `/favicon.ico`}]],
     themeConfig: {
-        editLinks: false,
         locales: {
             "/": {
                 label: "简体中文",
