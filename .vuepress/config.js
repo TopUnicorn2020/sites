@@ -84,7 +84,7 @@ function genGuideSidebar() {
             collapsable: false,
             children: [""]
         },{
-		title: "统一门户平台",
+						title: "统一门户平台",
             collapsable: false,
             children: ["apollo"]
         }
