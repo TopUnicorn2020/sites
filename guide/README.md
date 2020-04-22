@@ -12,7 +12,7 @@
 
 ## 特性
 
-- **微服务体系架构**：基于spring cloud Alibaba微服务体系结构设计
+- **微服务体系架构**：基于spring cloud Alibaba微服务体系架构设计
 
   
 

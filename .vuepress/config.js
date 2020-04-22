@@ -24,7 +24,6 @@ module.exports = {
             "/": {
                 label: "简体中文",
                 selectText: "Languages",
-                editLinkText: "在 GitHub 上编辑此页",
                 lastUpdated: "上次更新",
                 nav: [
                     {
@@ -32,7 +31,7 @@ module.exports = {
                         link: "/guide/"
                     },
                     {
-                        text: "赋能介绍",
+                        text: "赋能",
                         items: [
                             {
                                 text: "统一门户平台",
@@ -74,19 +73,23 @@ module.exports = {
                     }
                 ],
                 sidebar: {
-                    "/guide/": genGuideSidebar(true)
+                    "/guide/": genGuideSidebar()
                 }
             }
         }
     }
 };
 
-function genGuideSidebar(isZh) {
+function genGuideSidebar() {
     return [
         {
-            title: isZh ? "平台介绍" : "Getting Start",
+            title: "平台概述"
             collapsable: false,
             children: [""]
+        },{
+        	  title: "统一平台"
+            collapsable: false,
+            children: ["apollo"]
         }
     ]
 }
