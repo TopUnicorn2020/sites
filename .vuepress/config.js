@@ -17,8 +17,6 @@ module.exports = {
     },
     head: [["link", {rel: "icon", href: `/favicon.ico`}]],
     themeConfig: {
-        repo: "github.com/TopUnicorn2020/sites",
-        docsRepo: "github.com/TopUnicorn2020/sites",
         editLinks: false,
         locales: {
             "/": {
