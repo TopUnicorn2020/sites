@@ -12,12 +12,7 @@ module.exports = {
         "/": {
             lang: "zh-CN",
             title: "TopUnicorn",
-            description: "为企业中台而生"
-        },
-        "/en/": {
-            lang: "en-US",
-            title: "MyBatis-Plus",
-            description: "Born To Simplify Development"
+            description: "为企业云而生"
         }
     },
     head: [["link", {rel: "icon", href: `/favicon.ico`}]],
@@ -33,160 +28,48 @@ module.exports = {
                 lastUpdated: "上次更新",
                 nav: [
                     {
-                        text: "指南",
+                        text: "文档指南",
                         link: "/guide/"
                     },
                     {
-                        text: "配置",
-                        link: "/config/"
-                    },
-                    {
-                        text: "生态",
+                        text: "赋能介绍",
                         items: [
                             {
-                                text: "Kisso 单点登录",
-                                link: "https://gitee.com/baomidou/kisso"
+                                text: "统一门户平台",
+                                link: ""
                             },
                             {
-                                text: "Lock4j 分布式锁",
-                                link: "https://gitee.com/baomidou/lock4j-spring-boot-starter"
+                                text: "注册中心",
+                                link: ""
                             },
                             {
-                                text: "Dynamic Datasource 动态数据源",
-                                link:
-                                    "https://github.com/baomidou/dynamic-datasource-spring-boot-starter"
+                                text: "配置中心",
+                                link: ""
                             },
                             {
-                                text: "Jobs 分布式任务调度平台",
-                                link: "https://github.com/baomidou/jobs"
-                            }
-                        ]
-                    },
-                    {
-                        text: "更新日志",
-                        link:
-                            "https://github.com/baomidou/mybatis-plus/blob/3.0/CHANGELOG.md"
-                    },
-                    {
-                        text: "3.0 文档",
-                        items: [
-                            {
-                                text: "3.X 文档",
-                                link: "https://mybatis.plus"
+                                text: "鉴权中心",
+                                link: ""
+                            },
+														{
+                                text: "分布式消息队列中心",
+                                link: ""
                             },
                             {
-                                text: "2.X 文档",
-                                link: "https://baomidou.gitee.io/mybatis-plus-doc/#/"
+                                text: "分布式调度中心",
+                                link: ""
+                            },
+                            {
+                                text: "分布式计算中心",
+                                link: ""                           		
+                            },
+                            {
+                                text: "监控中心",
+                                link: ""                           		
                             }
                         ]
                     }
-                ],
-                sidebar: {
-                    "/guide/": genGuideSidebar(true),
-                    "/config/": genConfigSidebar(true)
-                }
-            },
-            "/en/": {
-                label: "English",
-                selectText: "Languages",
-                editLinkText: "Edit this page on GitHub",
-                lastUpdated: "Last Updated",
-                nav: [
-                    {
-                        text: "Guide",
-                        link: "/en/guide/"
-                    },
-                    {
-                        text: "Config",
-                        link: "/en/config/"
-                    },
-                    {
-                        text: "Ecosystem",
-                        items: [
-                            {
-                                text: "Kisso",
-                                link: "https://gitee.com/baomidou/kisso"
-                            },
-                            {
-                                text: "Lock4j",
-                                link: "https://gitee.com/baomidou/lock4j-spring-boot-starter"
-                            },
-                            {
-                                text: "Dynamic Datasource",
-                                link: "https://github.com/baomidou/dynamic-datasource-spring-boot-starter"
-                            },
-                            {
-                                text: "Jobs Scheduling Platform",
-                                link: "https://github.com/baomidou/jobs"
-                            }
-                        ]
-                    },
-                    {
-                        text: "Changelog",
-                        link:
-                            "https://github.com/TopUnicorn2020/sites/blob/3.0/CHANGELOG.md"
-                    }
-
-                ],
-                sidebar: {
-                    "/en/guide/": genGuideSidebar(false),
-                    "/en/config/": genConfigSidebar(false)
-                }
+                ]
             }
         }
     }
 };
-
-function genGuideSidebar(isZh) {
-    return [
-        {
-            title: isZh ? "快速入门" : "Getting Start",
-            collapsable: false,
-            children: ["", "apollo", "quick-start", "install", "config", "annotation"]
-        },
-        {
-            title: isZh ? "核心功能" : "Core",
-            collapsable: false,
-            children: ["generator", "crud-interface", "wrapper", "page", "sequence", "id-generator"]
-        },
-        {
-            title: isZh ? "插件扩展" : "Plugin",
-            collapsable: false,
-            children: [
-                "hot-loading",
-                "logic-delete",
-                "enum",
-                "typehandler",
-                "auto-fill-metainfo",
-                "sql-injector",
-                "block-attack-sql-parser",
-                "performance-analysis-plugin",
-                "p6spy",
-                "optimistic-locker-plugin",
-                "dynamic-datasource",
-                "dts",
-                "tenant",
-                "dynamic-table-name-parser",
-                "mybatisx-idea-plugin"
-            ]
-        },
-        {
-            title: "FAQ",
-            collapsable: false,
-            children: [
-                "faq",
-                "donate"
-            ]
-        }
-    ]
-}
-
-function genConfigSidebar(isZh) {
-    return [
-        {
-            title: isZh ? "配置" : "Config",
-            collapsable: false,
-            children: ["", "generator-config"]
-        }
-    ]
-}
