@@ -80,11 +80,11 @@ module.exports = {
 function genGuideSidebar() {
     return [
         {
-            title: "平台概述"
+            title: "平台概述",
             collapsable: false,
             children: [""]
         },{
-        	  title: "统一平台"
+		title: "统一平台",
             collapsable: false,
             children: ["apollo"]
         }
