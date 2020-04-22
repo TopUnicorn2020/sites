@@ -63,6 +63,10 @@ module.exports = {
                                 link: ""                           		
                             },
                             {
+                                text: "数据存储中心",
+                                link: ""                           		
+                            },
+                            {
                                 text: "监控中心",
                                 link: ""                           		
                             }
